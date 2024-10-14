@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specify character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="To foster and train the next generations in excellence in hairdressing and beauty as the leading college and to provide students with high-quality learning.">
+    <meta name="keywords" content="CLASSIC RAY'S COLLEGE">
+    <meta name="author" content="Ephantus Gatuu">
+    
+    <title>CLASSIC RAY'S COLLEGE</title>
+    
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
+    <style>
+        /* CSS Styling for Blogs Section */
+        body {
+            font-family: Arial, sans-serif; /* Font for the body */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            background-color: #f4f4f4; /* Light gray background for the body */
+        }
+
+        .header {
+            margin-bottom: 0; /* Remove space below header */
+            z-index: 2; /* Ensure header is above the blog */
+            position: relative;
+        }
+
+        .blogs {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+            padding: 20px; /* Padding around the section */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+            position: relative; /* Changed to relative to keep it in flow */
+            top: 0; /* Align to the top */
+            left: 0; /* Align to the left */
+            width: 100%; /* Take full width */
+            min-height: 100vh; /* Minimum viewport height */
+            z-index: 1; /* Send to background */
+            overflow: auto; /* Allow scrolling within the section */
+        }
+
+        .blogs h2 {
+            font-size: 28px; /* Font size for the heading */
+            color: #333; /* Dark color for the heading */
+            text-align: center; /* Center-align the heading */
+        }
+
+        .blog-navigation {
+            text-align: center; /* Center-align the navigation links */
+            margin-bottom: 20px; /* Space below the navigation */
+        }
+
+        .blog-navigation a {
+            color: #007bff; /* Link color */
+            text-decoration: none; /* No underline on links */
+        }
+
+        .blog-navigation a:hover {
+            text-decoration: underline; /* Underline effect on hover */
+        }
+
+        .blog-post {
+            background-color: #fff; /* White background for each blog post */
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 15px; /* Padding inside the blog post */
+            margin-bottom: 15px; /* Space below each blog post */
+        }
+
+        .blog-date {
+            font-size: 14px; /* Smaller font for the date */
+            color: #999; /* Gray color for the date */
+            margin-bottom: 10px; /* Space below the date */
+        }
+
+        .blog-title {
+            font-size: 22px; /* Font size for the blog title */
+            color: #333; /* Dark color for the title */
+            margin: 5px 0; /* Space above and below the title */
+        }
+
+        .blog-meta {
+            font-size: 14px; /* Smaller font for meta information */
+            color: #999; /* Gray color for meta information */
+            margin-bottom: 10px; /* Space below the meta information */
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align text */
+            padding: 20px; /* Padding around the footer */
+            position: relative; /* Positioning for any absolute elements */
+            margin-top: 20px; /* Space above the footer */
+            z-index: 2; /* Ensure footer is above the blog */
+        }
+
+        .footer h4 {
+            font-size: 24px; /* Font size for the heading */
+            margin-bottom: 10px; /* Space below the heading */
+            color: #f39c12; /* Different color for the heading */
+        }
+
+        .footer p {
+            font-size: 16px; /* Font size for the paragraphs */
+            line-height: 1.5; /* Line height for better readability */
+            margin: 5px 0; /* Vertical space between paragraphs */
+        }
+
+        #copyright {
+            font-size: 14px; /* Smaller font size for copyright */
+            margin-top: 15px; /* Space above the copyright text */
+        }
+
+        /* Optional: Add media queries for responsiveness */
+        @media (max-width: 768px) {
+            .footer h4 {
+                font-size: 20px; /* Smaller heading on smaller screens */
+            }
+
+            .footer p {
+                font-size: 14px; /* Smaller paragraphs on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" id="logo-img" alt="Classic Ray's College Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="icon" onclick="hidemenu()">&#10005;</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="Admission_page.html">Admission</a></li>
+                    <li><a href="#course_call">Course</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="Contact_page.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+    
+    <!-- Blogs Section -->
+    <section class="blogs">
+        <h2>Blog List</h2>
+        <nav class="blog-navigation">
+            <a href="#">Home</a> &nbsp; | &nbsp; 
+            <a href="#">News & Blog</a>
+        </nav>
+
+        <article class="blog-post">
+            <div class="blog-date">21 Mar</div>
+            <h3 class="blog-title">Graduation Day</h3>
+            <p class="blog-meta">By Admin 2 years ago</p>
+            <p>Graduating is always the icing on the cake when it comes to education. However, with graduation comes the satisfaction of completing a significant chapter of your life.</p>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-date">06 Dec</div>
+            <h3 class="blog-title">Monthly Intakes</h3>
+            <p class="blog-meta">By Admin 1 year ago</p>
+            <p>At Vera Beauty College, we have monthly intakes, from 1st to 15th of every month. Our Fashion Design program offers an opportunity for students to explore their creative potential.</p>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-date">09 Mar</div>
+            <h3 class="blog-title">International Women's Day</h3>
+            <p class="blog-meta">By Admin 1 year ago</p>
+            <p>As we celebrate International Women's Day, we take a moment to reflect on the powerful women that make up Vera Beauty College and the impact they have on our community.</p>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-date">23 Aug</div>
+            <h3 class="blog-title">7 Reasons Why Hairdressing Can Be a Good Career Choice at Vera Beauty College</h3>
+            <p class="blog-meta">By Admin 1 month ago</p>
+            <p>Working as a hairdresser will teach you all manner of transferable skills to take out into the world. Whether it’s creativity or customer service, the skills you learn are invaluable.</p>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-date">30 Aug</div>
+            <h3 class="blog-title">The Benefits of Studying Baking Technology</h3>
+            <p class="blog-meta">By Admin 1 month ago</p>
+            <p>Baking is an activity enjoyed by many, young and old. But did you know that as well as resulting in delicious treats, it can also lead to a fulfilling career?</p>
+        </article>
+
+        <article class="blog-post">
+            <div class="blog-date">10 Sep</div>
+            <h3 class="blog-title">The Importance of The Interior Design & Soft Furnishings Course</h3>
+            <p class="blog-meta">By Admin 1 month ago</p>
+            <p>Soft furnishings are the more pliable elements of a room. They include cushions, curtains, and upholstery. This blog post explores the role of interior design in creating beautiful living spaces.</p>
+        </article>
+    </section>
+</header>
+
+    <footer class="footer">
+        <h4>Contact Us</h4>
+        <p>Call us at: +254 712 345 678</p>
+        <p>Email: info@classicraycollege.ac.ke</p>
+        <p>Follow us on social media:</p>
+        <p id="copyright">&copy; 2024 Classic Ray's College. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function hidemenu() {
+            var navLinks = document.getElementById("navLinks");
+            navLinks.style.display = "none"; // Hides the menu
+        }
+    </script>
+</body>
+</html>

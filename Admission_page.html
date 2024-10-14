@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form - Classic Ray's College</title>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
+  <link rel="stylesheet" href="css/admission_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="image/logo.png" id="logo-img"></a>
+
+      <div class="nav-links" id="navLinks">
+        <span class="icon" onclick="hidemenu()">&#10005;</span>  
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="Admission_page.html">Admission</a></li>
+          <li><a href="#course_call">Course</a></li>
+          <li><a href="blogs.html">blogs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contact_page.html">Contact</a></li>
+        </ul>
+      </div> 
+      <span class="icon" onclick="showmenu()">&#9776;</span>
+    </nav>
+
+    <div class="wrapper">
+      <div class="r_form_wrap">
+        
+        <div class="title">
+          <p>Admission Form</p>
+        </div>
+        
+        <!-- Admission form -->
+        <div class="r_form">
+          <!-- Update the form action to Google Form -->
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScPEMH2pUkXaK3d3UhfX4cIgVeDh2ako4CPrt3SZHtOhFLjoA/formResponse" method="POST" target="_self">
+            
+            <!-- First Name -->
+            <div class="input_wrap">
+              <label for="first_name">First Name</label>
+              <div class="input_item">
+                <i class="fa fa-user" id="icon"></i>
+                <input type="text" name="entry.123456789" class="input" id="first_name" placeholder="Enter your first name" required>
+              </div>
+            </div>
+
+            <!-- Last Name -->
+            <div class="input_wrap">
+              <label for="last_name">Last Name</label>
+              <div class="input_item">
+                <i class="fa fa-user" id="icon"></i>
+                <input type="text" name="entry.987654321" class="input" id="last_name" placeholder="Enter your last name" required>
+              </div>
+            </div>
+
+            <!-- Email Address -->
+            <div class="input_wrap">
+              <label for="email">Email Address</label>
+              <div class="input_item">
+                <i class="fa fa-envelope" id="icon"></i>
+                <input type="email" name="entry.456789123" class="input" id="email" placeholder="Enter your email" required>
+              </div>
+            </div>
+
+            <!-- Gender -->
+            <div class="input_wrap">
+              <label>Gender</label>
+              <div class="input_radio">
+                <div class="input_radio_item">
+                  <input type="radio" id="male" name="entry.654321987" class="radio" value="male" checked>
+                  <label for="male" class="radio_mark">
+                    <ion-icon class="i" name="male-sharp"></ion-icon>Male</label>
+                </div>
+                <div class="input_radio_item">
+                  <input type="radio" id="female" name="entry.654321987" class="radio" value="female">
+                  <label for="female" class="radio_mark">
+                    <ion-icon class="i" name="female-sharp"></ion-icon>Female</label>
+                </div>
+                <div class="input_radio_item">
+                  <input type="radio" id="other" name="entry.654321987" class="radio" value="other">
+                  <label for="other" class="radio_mark">
+                    <ion-icon class="i" name="male-female-sharp"></ion-icon>Other</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="input_wrap">
+              <label for="phone">Phone Number</label>
+              <div class="input_item">
+                <i class="fa fa-phone" id="icon"></i>
+                <input type="tel" name="entry.567890123" class="input" id="phone" placeholder="Enter your phone number" required>
+              </div>
+            </div>
+
+            <!-- Course -->
+            <div class="input_wrap">
+              <label for="course">Course</label>
+              <div class="input_item">
+                <i class="fa fa-caret-square-o-down" id="icon"></i>
+                <select id="course" name="entry.135792468" class="input" required>
+                  <option value="select">Select the Course</option>
+                  <option value="Cosmetology">Cosmetology</option>
+                  <option value="Computer Designer">Computer Designer</option>
+                  <option value="Barbering">Barbering</option>
+                  <option value="Plaiting & Braiding">Plaiting & Braiding</option>
+				  <option value="Driving">Driving</option>
+				  <option value="Hairdressing">Hairdressing</option>
+				  <option value="CAN/CARE GIVER">CAN/CARE GIVER</option>
+				  <option value="Tailoring and Garment Making">Tailoring and Garment Making</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Start Date -->
+            <div class="input_wrap">
+              <label for="start_date">Start Date</label>
+              <div class="input_item">
+                <i class="fa fa-calendar" id="icon"></i>
+                <input type="date" name="entry.246813579" class="input" id="start_date" required>
+              </div>
+            </div>
+
+            <!-- Hidden fields required by Google Forms -->
+            <input type="hidden" name="fvv" value="1">
+            <input type="hidden" name="partialResponse" value="[null,null,&quot;-5368245575769979489&quot;]">
+            <input type="hidden" name="pageHistory" value="0">
+            <input type="hidden" name="fbzx" value="-5368245575769979489">
+            <input type="hidden" name="submissionTimestamp" value="-1">
+
+            <input type="submit" class="button" value="Register Now">
+            <input type="reset" class="clear_ad" value="Clear">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="none_div"></div>
+</body>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendmail() {
+    Email.send({}).then(
+      message => alert("Thanks for filling out our form!")
+    );
+  }
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showmenu() {
+    navLinks.style.right = "0";
+  }
+  function hidemenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+</html>
