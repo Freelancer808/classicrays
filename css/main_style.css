@@ -39,8 +39,8 @@ body{
         background: #3838387c !important;
     }
     body::-webkit-scrollbar-thumb {
-        background-color: #e0120ba4 !important;
-        border: 1px solid #ff020279 !important;
+        background-color: #ffc1e3 !important;
+        border: 1px solid #ffc1e3 !important;
         border-radius: 1px !important;
     }
 
@@ -74,7 +74,7 @@ nav img{
     
 }
 .nav-links a{
-    color: #fff;
+    color: #ffc1e3;
     text-decoration: none;
     font-size: 16px;
     
@@ -83,7 +83,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #ff0000;
+    background: #ffc1e3;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -110,14 +110,14 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color: #ffc1e3;
     
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: yellow;
-    border: 2px solid yellow;
+    color: #ffc1e3;
+    border: 2px solid #ffc1e3;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -128,7 +128,7 @@ nav img{
 .hero-btn:hover{
     color: black;
     border: 2px solid yellow;
-    background:yellow;
+    background:#ffc1e3;
     transition: 0.5s;
 }
 
@@ -162,7 +162,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #ffc1e3;
     border-radius: 10px;
     margin-bottom:5%;
     padding: 20px 12px;
@@ -300,8 +300,8 @@ h3{
 /* Footer */
 
 .footer {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #ffc1e3; /* Dark background color */
+    color: #ffc1e3; /* White text color */
     text-align: center; /* Center-align text */
     padding: 20px; /* Padding around the footer */
     position: relative; /* Positioning for any absolute elements */
